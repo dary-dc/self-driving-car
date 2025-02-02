@@ -1,0 +1,32 @@
+body{
+    margin:0; /*remove the margin for the body*/
+    background:darkgray;
+    overflow:hidden; /*the scroll bar will be coming if the canvas is too big*/
+    display:flex; /* no idea */
+    justify-content: center;
+    align-items: center;
+}
+
+#verticalButtons{
+    display: flex;
+    flex-direction: column; /* make the buttons appear in a column */
+}
+
+button{
+    border:none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin:2px;
+    cursor: pointer;
+}
+button:hover{
+    background:blue;
+}
+
+#networkCanvas{
+    background:rgb(0, 0, 0);
+}
+
+#carCanvas{
+    background:lightgray;
+}
